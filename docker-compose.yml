@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  golang:
+    image: tonywell/golangdev
+    restart: always
+    stdin_open: true
+    tty: true
+    privileged: true
+    environment:
+      TZ: Asia/Shanghai
+    working_dir: /go/workspace
+    volumes:
+      - ./:/go/workspace
+    ports:
+      - "8082:8000"
+    entrypoint: ["zsh"]
