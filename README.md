@@ -73,6 +73,6 @@ $ git clone https://github.com/golang/lint.git
 #### 4、VSC连接容器
 
 * 首先VSC需要安装Remote-Containers插件
-* 在vscode中按F1，输入Remote-Containers: Open，按照提示选择 Open Attched to running Container ……，VSC会自动识别出容器，选择正在运行的angulardev容器
+* 在vscode中按F1，输入Remote-Containers: Open，按照提示选择 Open Attched to running Container ……，VSC会自动识别出容器，选择正在运行的golangdev容器
 * vsc会提示安装相关内容
 * 接下来就可以通过VSC在golangdev容器中愉快的开发了。
